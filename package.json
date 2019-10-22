@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "The most basic example of OpenUI5 code using the CDN.",
   "scripts": {
+    "start": "ws --directory webapp --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
