@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "The most basic example of OpenUI5 code using the CDN.",
   "scripts": {
-    "start": "ws --directory webapp --open",
+    "start": "http-server webapp -o",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,7 +21,7 @@
     "url": "https://github.com/javalisson/helloworld-cdn-ui5/issues"
   },
   "homepage": "https://github.com/javalisson/helloworld-cdn-ui5#readme",
-  "dependencies": {
-    "local-web-server": "^3.0.7"
+  "devDependencies": {
+    "http-server": "^0.11.1"
   }
 }
